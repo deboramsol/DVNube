@@ -1,0 +1,29 @@
+Algoritmo "Atividades básicas obrigatórias"
+
+var
+
+inicio
+
+Escreva("Olá!!! Você irá levantar do sofá?" )
+leia(levantarSofa)
+    se levantarSofa = true entao 
+        Escreva ("Você deve ir ao banheiro.")
+        Escreva ("No banheiro, escove os dentes")
+        leia(escovarDentes)
+            se escovarDentes = true entao 
+                Escreva ("Já está na hora de ir para o quarto.")
+                Escreva ("Você irá dormir agora?")
+                leia(dormir)
+                    se dormir = true
+                        Escreva ("Boa noite!")
+                    senão
+                        Escreva ("Assista mais um pouco de tv")
+            senao
+                Escreva ("Não esqueça que a escovação é importante!")
+    senao
+        Escreva ("Fique assistindo um pouco mais de tv!")
+
+
+    
+
+    
