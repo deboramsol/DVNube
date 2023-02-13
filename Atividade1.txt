@@ -1,29 +1,45 @@
-Algoritmo "Atividades básicas obrigatórias"
+Inicio
 
-var
+Levantar do sofá
+Caminhar até ao banheiro
+Se (porta banheiro fechada) entao
+    abrir  porta
+    entrar no banheiro
+senao
+    entrar no banheiro
+fimse
+Acender a luz do banheiro
+Ir até a pia
+Pegar escova e pasta de dente
+Colocar pasta na escova
+abrirTorneira()
+Molhar  escova na água
+Fechar torneira
+Levar  escova à boca
+tempo = 0
+Enquanto (tempo <= 120 segundos) faca
+    Escovar os dentes
+fimenquanto
+Cuspir na pia
+abrirTorneira()
+Lavar  boca
+Lavar  escova de dente
+Fechar torneira
+Secar boca e mãos na toalha
+Caminhar até porta do banheiro
+Apagar luz do banheiro
+Caminhar até quarto
+Deitar na cama
 
-inicio
-
-Escreva("Olá!!! Você irá levantar do sofá?" )
-leia(levantarSofa)
-    se levantarSofa = true entao 
-        Escreva ("Você deve ir ao banheiro.")
-        Escreva ("No banheiro, escove os dentes")
-        leia(escovarDentes)
-            se escovarDentes = true entao 
-                Escreva ("Já está na hora de ir para o quarto.")
-                Escreva ("Você irá dormir agora?")
-                leia(dormir)
-                    se dormir = true
-                        Escreva ("Boa noite!")
-                    senão
-                        Escreva ("Assista mais um pouco de tv")
-            senao
-                Escreva ("Não esqueça que a escovação é importante!")
-    senao
-        Escreva ("Fique assistindo um pouco mais de tv!")
+funcao abrirTorneira ()
+    Levar mão até torneira
+    Girar torneira 
+    se (fluxo de água médio) entao
+        Parar de girar torneira
+    fimse
+fimabrirTorneira
 
 
-    
+Fimalgoritmo
 
-    
+
