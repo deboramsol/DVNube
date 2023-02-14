@@ -44,6 +44,7 @@ funcao fecharTorneira()
     Enquanto (fluxo água) entao
          Girar torneira sentido contrário
     fimenquanto
+fimfecharTorneura
 
 Fimalgoritmo
 
