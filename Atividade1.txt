@@ -4,7 +4,6 @@ Levantar do sofá
 Caminhar até ao banheiro
 Se (porta banheiro fechada) entao
     abrir  porta
-    entrar no banheiro
 senao
     entrar no banheiro
 fimse
@@ -18,6 +17,7 @@ Levar  escova à boca
 tempo = 0
 Enquanto (tempo <= 120 segundos) faca
     Escovar os dentes
+    tempo = tempo + 1 segundo
 fimenquanto
 Cuspir na pia
 abrirTorneira()
@@ -44,7 +44,7 @@ funcao fecharTorneira()
     Enquanto (fluxo água) entao
          Girar torneira sentido contrário
     fimenquanto
-fimfecharTorneura
+fimfecharTorneira
 
 Fimalgoritmo
 
