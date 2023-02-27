@@ -1,0 +1,39 @@
+/* A sequência de Fibonacci é uma sequência de números inteiros que começa com 0 e 1, 
+e em que cada número subsequente é a soma dos dois números anteriores na sequência. 
+A sequência continua infinitamente, sendo os primeiros números da sequência: 0, 1, 1, 2, 
+3, 5, 8, 13, 21, 34, 55, 89, 144, etc. A sequência é nomeada em homenagem ao matemático 
+italiano Leonardo Fibonacci, que a descreveu pela primeira vez no século XIII em seu 
+livro Liber Abaci. A sequência de Fibonacci tem muitas propriedades interessantes e é 
+encontrada em muitas áreas da matemática e da ciência, incluindo a biologia, a teoria 
+dos jogos e a análise técnica do mercado financeiro. */
+
+/*Escreva um algoritmo em pseudocódigo para calcular o n-ésimo número da sequência de 
+Fibonacci, usando uma abordagem recursiva. O algoritmo deve receber como entrada um número 
+inteiro n, representando a posição do número na sequência de Fibonacci, e retornar o valor 
+correspondente a essa posição. Certifique-se de incluir tratamento de erro para o caso em 
+que o usuário insira um número negativo como entrada.*/
+
+
+funcao inteiro fibonacci(n)
+    se n == 0  entao
+        retorne 0
+    senao se n == 1 entao
+        retorne 1
+    senao se n > 1
+        retorne fibonacci(n-1) + fibonacci(n-2)
+    fimse
+    fimse
+    fimse
+fimfibonacci
+
+Inicio
+
+escreva("Digite um número inteiro.")
+leia (n)
+    se n < 0 então
+       escreva( "O número deve ser positivo.")
+    senão
+       escreva("A posição " , n , "é: ", fibonacci(n)) 
+    fimse
+
+Fim
