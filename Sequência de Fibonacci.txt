@@ -33,7 +33,7 @@ leia (n)
     se n < 0 então
        escreva( "O número deve ser positivo.")
     senão
-       escreva("A posição " , n , "é: ", fibonacci(n)) 
+       escreva(fibonacci(n))
     fimse
 
 Fim
