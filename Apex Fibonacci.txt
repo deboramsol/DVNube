@@ -1,0 +1,21 @@
+Escreva um código em Apex para calcular o n-ésimo número da sequência de Fibonacci, usando uma abordagem recursiva, com base no algoritmo em pseudocódigo criado anteriormente. O código deve ser implementado como uma classe Apex e incluir um método que recebe um número inteiro n como entrada e retorna o valor correspondente na sequência de Fibonacci. O método também deve incluir tratamento de erro para o caso em que o usuário insira um número negativo como entrada.
+
+Após a implementação, forneça um login e uma senha para o professor poder acessar o sistema e testar a solução. Certifique-se de que as instruções de uso do sistema estejam claras e de que o código esteja bem documentado.
+
+public class SequenciaFibonacci {
+    public static Integer fibonacci(Integer n){
+        if(n < 0){
+            System.debug('O número deve ser maior ou igual a 0.');
+            return null;
+        }
+        else if(n == 0){
+            return 0;
+        }
+        else if(n == 1){
+            return 1;
+        }
+        else {
+            return fibonacci(n-1)+ (n-2);
+        }
+    }
+}
