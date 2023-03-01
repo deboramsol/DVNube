@@ -1,0 +1,51 @@
+Inicio
+
+Levantar do sofá
+Caminhar até ao banheiro
+Se (porta banheiro fechada) entao
+    abrir  porta
+senao
+    entrar no banheiro
+fimse
+Ir até a pia
+Pegar escova e pasta de dente
+Colocar pasta na escova
+abrirTorneira()
+Molhar  escova na água
+fecharTorneira()
+Levar  escova à boca
+tempo = 0
+Enquanto (tempo <= 120 segundos) faca
+    Escovar os dentes
+    tempo = tempo + 1 segundo
+fimenquanto
+Cuspir na pia
+abrirTorneira()
+Lavar  boca
+Lavar  escova de dente
+fecharTorneira()
+Secar boca na toalha
+Secar mãos na toalha
+Caminhar até porta do banheiro
+Apagar luz do banheiro
+Caminhar até quarto
+Deitar na cama
+
+funcao abrirTorneira ()
+    Levar mão até torneira
+    Girar torneira 
+    se (fluxo de água médio) entao
+        Parar de girar torneira
+    fimse
+fimabrirTorneira
+
+funcao fecharTorneira()
+    Levar mão até torneira
+    Enquanto (fluxo água) entao
+         Girar torneira sentido contrário
+    fimenquanto
+fimfecharTorneira
+
+Fimalgoritmo
+
+
